@@ -10,17 +10,17 @@ function App() {
   const [email, setEmail] = useState();
 
   useEffect(() => {
-   API.loadNextUser()
+    loadNextUser()
   }, [])
 
-  loadNextUser = () => {
+  const loadNextUser = () => {
     API.getRandomUser()
       .then(res => {
         console.log(res)
         setPhone(res.data.results[0].cell)
         setImage(res.data.results[0].picture.large)
         setEmail(res.data.results[0].email)
-        setName(`${res.data.results[0].first} ${res.data.results[0].last}`)
+        setName(`${res.data.results[0].name.first} ${res.data.results[0].name.last}`)
       })
   }
 
@@ -33,6 +33,7 @@ function App() {
         email={email}
         phone={phone}
       />
+     
     </div>
   );
 }
