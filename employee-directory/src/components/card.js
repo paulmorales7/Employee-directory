@@ -1,13 +1,17 @@
 import React from "react";
-
+import "./card.css";
 
 function Card(props) {
     return (
-        <div>
-            <img src={props.employee.picture.thumbnail} alt="employee" />
-            <h1>{`${props.employee.name.first}${props.employee.name.last}`}</h1>
-            <p>{props.employee.email}</p>
-            <p>{props.employee.phone}</p>
+        <div className="card">
+            <div className="img-container">
+                <img src={props.employee.picture.thumbnail} alt="employee" />
+            </div>
+            <div className="content">
+                <h1 className="name">{`${props.employee.name.first} ${props.employee.name.last}`}</h1>
+                <p>Email: {props.employee.email}</p>
+                <p>Phone: {props.employee.phone}</p>
+            </div>
         </div>
     )
 }
