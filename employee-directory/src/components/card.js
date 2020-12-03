@@ -1,20 +1,14 @@
 import React from "react";
 
-function Card(props) {
 
+function Card(props) {
     return (
         <div>
-            {props.results.map(props =>
-                <div>
-                    <img src={props.image} />
-                    <h1>{props.name}</h1>
-                    <p>{props.email}</p>
-                    <p>{props.phone}</p>
-                </div>
-            )}
+            <img src={props.employee.picture.thumbnail} alt="employee" />
+            <h1>{`${props.employee.name.first}${props.employee.name.last}`}</h1>
+            <p>{props.employee.email}</p>
+            <p>{props.employee.phone}</p>
         </div>
-
     )
 }
-
 export default Card;
