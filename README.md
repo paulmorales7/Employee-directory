@@ -23,9 +23,6 @@ https://employee-directory-wk19.herokuapp.com/
   None.
   # Usage
   Follow instructions given by app. After inputting employees, user is able to filter by a propert and sort by a category.
-  # License
-  License selected displayed in description. You have selected 
-  
   # Contributing
   Paul Morales
   # Tests
