@@ -3,24 +3,35 @@
 Deployed App:
 https://employee-directory-wk19.herokuapp.com/
 
-## Overview
 
-An employee directory with React. Application's UI is broken up into components, managed component state, and responsive to user events.
-
-## User Story
-
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
-
-## Business Context
-
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
-
-## Acceptance Criteria
-
-Given a table of random users, when the user loads the page, a table of employees should render. 
-
-The user should be able to:
-
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
+  # Employee Directory
+  
+  # Table of Contents
+  
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
+  
+  # Description
+  ![License](https://img.shields.io/badge/License--blue.svg "License Badge")
+   - This app allows the user to view non sensitive data about their employees, as well as sort and filter through.
+  # Installation
+  None.
+  # Usage
+  Follow instructions given by app. After inputting employees, user is able to filter by a propert and sort by a category.
+  # License
+  License selected displayed in description. You have selected 
+  
+  # Contributing
+  Paul Morales
+  # Tests
+  None.
+  # Questions
+  For any questions please review the project in Github. For any additional questions feel free to contact me.
+  - Github: paulmorales7
+  - Email: pmoralescode@gmail.com
+  
